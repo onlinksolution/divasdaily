@@ -19,14 +19,14 @@ export const TRENDING = [
     
     key:'news', 
     
-    img:'./news/jennifer-lopez-look-casualin-a-sweatshirt-and-minimal-makeup-for-fresh-faced-selfie/main-img.jpg', 
+    img:'./news/jlnews1/main-img.jpg', 
     
     label:'Jennifer Lopez looks casual in a sweatshirt and minimal makeup for fresh-faced selfie'
   },
 
-  {href: '/', key:'news', img:'./news/news1.jpg', label:'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics'},
-  {href: '/', key:'news', img:'./news/news1.jpg', label:'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics'},
-  {href: '/', key:'news', img:'./news/news1.jpg', label:'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics'},
+  {href: '/', key:'news', img:'./news/jlnews1/main-img.jpg', label:'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics'},
+  {href: '/', key:'news', img:'./news/jlnews1/main-img.jpg', label:'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics'},
+  {href: '/', key:'news', img:'./news/jlnews1/main-img.jpg', label:'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics'},
 ]
 
 export const JLNEWS1 = [
