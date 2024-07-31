@@ -7,7 +7,7 @@ const page = () => {
   return (
     <section className='py-28 font-mainFont'>
       {JENNIFERLAWRENCE.map((link) => (
-        <div className="main_container grid gap-8 bg-white rounded-3xl px-8 py-10">
+        <div className="main_container grid gap-8 bg-white rounded-3xl px-3 lg:px-10 py-10">
 
           <div className='border-b-2 border-black py-4 px-0 md:px-0 flex flex-col md:items-start md:flex-row md:gap-6 gap-3'>
             <Image src={link.mainImg} width={120} height={50} className='rounded-2xl self-end' alt={link.key} />
