@@ -37,7 +37,7 @@ const Trending = () => {
             <SwiperSlide>
               <article className='p-3 rounded-2xl'>
                 <div className='grid gap-3'>
-                  <Image src={link.img} width={0} height={0} sizes='100vw' alt='news' className='rounded-2xl w-full h-auto' />
+                  <Image src={link.img} width={0} height={0} sizes='100vw' alt={link.key} className='rounded-2xl w-full h-auto' />
 
                   <Link href={link.href} key={link.key} className='hover:underline text-white'><h3>{link.label}</h3></Link>
                 </div>

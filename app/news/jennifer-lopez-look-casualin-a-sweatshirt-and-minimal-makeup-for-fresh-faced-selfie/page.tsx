@@ -16,7 +16,7 @@ const page = () => {
 
               <div className="w-full grid justify-center">
                 <div className="relative w-[15rem] md:w-[18rem]">
-                  <Image src={link.img1} width={0} height={0} alt="logo" sizes='100vw' className='w-full h-auto' />
+                  <Image src={link.img1} width={0} height={0} alt={link.key} sizes='100vw' className='w-full h-auto' />
                   <div className="bg-pink-400 absolute -bottom-2 w-full h-1"></div>
                 </div>
               </div>
@@ -25,7 +25,7 @@ const page = () => {
 
               <div className="w-full grid justify-center">
                 <div className="relative w-[15rem] md:w-[18rem]">
-                  <Image src={link.img3} width={0} height={0} alt="logo" sizes='100vw' className='w-full h-auto' />
+                  <Image src={link.img3} width={0} height={0} alt={link.key} sizes='100vw' className='w-full h-auto' />
                   <div className="bg-pink-400 absolute -bottom-2 w-full h-1"></div>
                 </div>
               </div>
@@ -35,7 +35,7 @@ const page = () => {
 
               <div className="w-full grid justify-center">
                 <div className="relative w-[15rem] md:w-[18rem]">
-                  <Image src={link.img3} width={0} height={0} alt="logo" sizes='100vw' className='w-full h-auto' />
+                  <Image src={link.img3} width={0} height={0} alt={link.key} sizes='100vw' className='w-full h-auto' />
                   <div className="bg-pink-400 absolute -bottom-2 w-full h-1"></div>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const page = () => {
 
               <div className="w-full grid justify-center">
                 <div className="relative w-[15rem] md:w-[18rem]">
-                  <Image src={link.img4} width={0} height={0} alt="logo" sizes='100vw' className='w-full h-auto' />
+                  <Image src={link.img4} width={0} height={0} alt={link.key} sizes='100vw' className='w-full h-auto' />
                   <div className="bg-pink-400 absolute -bottom-2 w-full h-1"></div>
                 </div>
               </div>
