@@ -6,7 +6,7 @@ import ScrollUp from "@/components/ScrollUp";
 
 export const metadata: Metadata = {
   title: "Divas Daily",
-  description: "Read about celebrities gossip and news",
+  description: "Stay updated with the latest celebrity gossip and news about your favorite divas in Hollywood and beyond. From red carpet looks to personal lives, we bring you the hottest scoops and trending stories daily",
 };
 
 export default function RootLayout({
