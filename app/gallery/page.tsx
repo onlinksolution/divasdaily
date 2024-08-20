@@ -13,12 +13,14 @@ const page = () => {
         <div className='grid gap-3'>
           <div className='gallery_card'>
             {GALLERY.map((link) => (
-              <div className='relative overflow-hidden group'>
-                <Image src={link.img} width={0} height={0} sizes='100vw' alt={link.key} className='w-full h-auto mt-[1rem]' />
-                <div className='w-full h-[3rem] bg-black absolute -bottom-[3rem] flex justify-center items-center uppercase text-white group-hover:bottom-0 transition-all duration-300'>
-                  <h3>{link.label}</h3>
+              <Link href={`/gallery/${link.key}`}>
+                <div className='relative overflow-hidden group'>
+                  <Image src={link.img} width={0} height={0} sizes='100vw' alt={link.key} className='w-full h-auto mt-[1rem]' />
+                  <div className='w-full h-[3rem] bg-black absolute -bottom-[3rem] flex justify-center items-center uppercase text-white group-hover:bottom-0 transition-all duration-300'>
+                    <h3>{link.label}</h3>
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
 
           </div>

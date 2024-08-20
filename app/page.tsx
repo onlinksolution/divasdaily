@@ -11,7 +11,7 @@ export default function Home() {
       <Trending />
       <RedCarpert />
       <Biography />
-      <Fashion />
+      {/* <Fashion /> */}
     </main>
 
   );

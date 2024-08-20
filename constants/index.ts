@@ -13,28 +13,33 @@ export const LEGAL = [
   { href: '/', key: 'privacy', label: 'Privacy Policies' },
 ]
 
-export const TRENDING = [
+export const NEWS = [
   {
-    href: '/news/jennifer-lopez-look-casualin-a-sweatshirt-and-minimal-makeup-for-fresh-faced-selfie',
+    key: 'kylie-jenner-hot-blue-bikini-photos',
+    date: '2024 August 20',
+    head: `Kylie Jenner Hot Blue Bikini Photos`,
 
-    key: 'news',
+    mainImg: '/news/kylienews1/main-img.jpg',
+    img1: `/news/kylienews1/img1.jpg`,
+    img2: `/news/kylienews1/img2.jpg`,
+    img3: `/news/kylienews1/img3.jpg`,
+    img4: `/news/kylienews1/img4.jpg`,
 
-    img: '/news/jlnews1/main-img.jpg',
+    para1: `Kylie Jenner stuns in her latest photoshoot, where she radiates confidence and elegance by the pool. Dressed in a vibrant blue bikini, the reality TV star and beauty mogul effortlessly showcases her toned physique. The sleek design of the bikini, with its delicate straps and soft, shimmering fabric, perfectly complements Kylie's bronzed skin, making her look both glamorous and relaxed.`,
 
-    label: 'Jennifer Lopez looks casual in a sweatshirt and minimal makeup for fresh-faced selfie'
+    para2: `In the first shot, Kylie leans against the pool's edge, her hair slicked back, revealing her flawless complexion and highlighting her sharp features. The sun casts a gentle glow, adding a natural highlight to her face and body, emphasizing the curves that have made her a style icon.​`,
+
+    para3: `This image captures Kylie in a more playful, yet equally captivating pose. Reclining on the poolside, she tilts her head back, eyes closed, basking in the warmth of the sun. Her posture exudes a mix of serenity and strength, embodying the balance she strikes between her demanding career and moments of personal relaxation.`,
+
+    para4: ``
   },
 
-  { href: '/', key: 'news', img: '/news/jlnews1/main-img.jpg', label: 'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics' },
-  { href: '/', key: 'news', img: '/news/jlnews1/main-img.jpg', label: 'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics' },
-  { href: '/', key: 'news', img: '/news/jlnews1/main-img.jpg', label: 'Beyonce embraces her patriotic side in a pleated skirt and stylish sports jacket as she supports Team USA during the 2024 Paris Olympics' },
-]
-
-export const JLNEWS1 = [
   {
-    key: 'jlnews1',
+    key: 'jennifer-lopez-look-casualin-a-sweatshirt-and-minimal-makeup-for-fresh-faced-selfie',
     date: '2024 July 29',
     head: `Jennifer Lopez looks casual in a sweatshirt and minimal makeup for fresh-faced selfie`,
 
+    mainImg: '/news/jlnews1/main-img.jpg',
     img1: `/news/jlnews1/img1.jpg`,
     img2: `/news/jlnews1/img2.jpg`,
     img3: `/news/jlnews1/img3.jpg`,
@@ -47,18 +52,60 @@ export const JLNEWS1 = [
     para3: `Lopez has been open about her skincare routine, attributing her glowing skin to the consistent use of her JLo Beauty products. In a recent video, she emphasized the importance of using sunscreen daily, a practice she's maintained since her early twenties. The 54-year-old star also highlighted the role of happiness in maintaining a healthy complexion, underscoring that no makeup can mask unhappiness​`,
 
     para4: `Jennifer Lopez 9 The star got glam in a chic white swimsuit on her birthday.`
-  }
+  },
+
+  {
+    key: 'kim-kardashian-latest-bikini-photoshoot-goes-viral-on-internet-hot-pics',
+    date: '2023 June 27',
+    head: `Kim Kardashian Latest Bikini Photoshoot Goes Viral On Internet`,
+
+    mainImg: '/news/kimnews1/main-img.jpg',
+    img1: `/news/kimnews1/img1.jpg`,
+    img2: `/news/kimnews1/img2.jpg`,
+    img3: `/news/kimnews1/img3.jpg`,
+    img4: `/news/kimnews1/img4.jpg`,
+
+    para1: `Kim Kardashian is seen posing in a stylish, minimalistic setting that accentuates her figure. She is wearing a sleek black bikini that highlights her curves. The bikini top is a classic triangle design with thin straps, while the bottom is high-cut, featuring delicate gold chain detailing that adds a touch of elegance and sophistication to the overall look.`,
+
+    para2: `Her long, dark hair flows freely, cascading down her back and shoulders, which enhances the overall allure of the photoshoot. The lighting is soft, casting subtle shadows that emphasize her toned physique and glowing skin. Kim strikes a confident pose, placing one hand on her head, adding to the sultry and empowered vibe of the shoot.​`,
+
+    para3: `This photoshoot captures her trademark blend of glamour, confidence, and boldness.`,
+
+    para4: ``
+  },
+
+
 ]
 
 export const GALLERY = [
-  { key: 'img1', img: '/redcarpet/img5.jpeg', label: 'Selena Gomez' },
+  { key: 'img1', img: '/redcarpet/img1.jpg', label: 'Jennifer Lopez' },
   { key: 'img2', img: '/redcarpet/img2.jpg', label: 'Cardi B' },
-  { key: 'img3', img: '/redcarpet/img1.jpeg', label: 'Jennifer Lopez' },
-  { key: 'img4', img: '/redcarpet/img6.jpg', label: 'Megan Fox' },
-  { key: 'img5', img: '/redcarpet/img3.jpg', label: 'Giulia Salemi' },
-  { key: 'img6', img: '/redcarpet/img4.jpg', label: 'Kendall Jenner' },
-  { key: 'img7', img: '/redcarpet/img7.jpg', label: 'Jennifer Lawrence' },
-  { key: 'img8', img: '/redcarpet/img8.jpg', label: 'Dua Lipa' },
+  { key: 'img3', img: '/redcarpet/img3.jpg', label: 'Kendall Jenner' },
+  { key: 'img4', img: '/redcarpet/img4.jpg', label: 'Selena Gomez' },
+  { key: 'img5', img: '/redcarpet/img5.jpg', label: 'Megan Fox' },
+  { key: 'img6', img: '/redcarpet/img6.jpg', label: 'Jennifer Lawrence' },
+  { key: 'img7', img: '/redcarpet/img7.jpg', label: 'Dua Lipa' },
+  { key: 'img8', img: '/redcarpet/img8.jpg', label: 'Scarlett Johansson' },
+  { key: 'img9', img: '/redcarpet/img9.jpg', label: 'Sofia Vergara' },
+  { key: 'img13', img: '/redcarpet/img13.jpg', label: 'Amber Heard' },
+  { key: 'img10', img: '/redcarpet/img10.jpg', label: 'Emilia Clarke' },
+  { key: 'img11', img: '/redcarpet/img11.jpg', label: 'Kylie Jenner' },
+  { key: 'img12', img: '/redcarpet/img12.jpg', label: 'Gal Gadot' },
+  { key: 'img14', img: '/redcarpet/img14.jpg', label: 'Kylie Jenner' },
+  { key: 'img15', img: '/news/kylienews1/img1.jpg', label: 'Kylie Jenner' },
+  { key: 'img16', img: '/news/kylienews1/img2.jpg', label: 'Kylie Jenner' },
+  { key: 'img17', img: '/news/kylienews1/img3.jpg', label: 'Kylie Jenner' },
+  { key: 'img18', img: '/news/kylienews1/img4.jpg', label: 'Kylie Jenner' },
+  { key: 'img18', img: '/news/kylienews1/img5.jpg', label: 'Kylie Jenner' },
+  { key: 'img19', img: '/redcarpet/img15.jpg', label: 'Hope Beel' },
+  { key: 'img20', img: '/redcarpet/img16.jpg', label: 'Hope Beel' },
+  { key: 'img21', img: '/redcarpet/img17.jpg', label: 'Hope Beel' },
+  { key: 'img22', img: '/redcarpet/img18.jpg', label: 'Hope Beel' },
+  { key: 'img23', img: '/redcarpet/img19.jpg', label: 'Lucia & Hope Beel' },
+  { key: 'img24', img: '/redcarpet/img20.jpg', label: 'Lucia & Hope Beel' },
+  { key: 'img25', img: '/redcarpet/img21.jpg', label: 'Lucia & Hope Beel' },
+  { key: 'img26', img: '/redcarpet/img22.jpg', label: 'Lucia & Hope Beel' },
+
 ]
 
 export const FASHION = [

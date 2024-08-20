@@ -1,4 +1,4 @@
-import { TRENDING } from '@/constants'
+import { NEWS } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -13,19 +13,19 @@ const page = () => {
         <div className='md:grid md:grid-cols-5'>
           <div className='md:col-span-4'>
             <div className='grid md:grid-cols-3'>
-              {TRENDING.map((link) => (
+              {NEWS.map((link) => (
                 <article className='p-3 rounded-2xl'>
                   <div className='grid gap-3'>
-                    <Image src={link.img} width={0} height={0} sizes='100vw' alt='news' className='rounded-2xl w-full h-auto' />
+                    <Image src={link.mainImg} width={0} height={0} sizes='100vw' alt='news' className='rounded-2xl w-full h-auto' />
 
-                    <Link href={link.href} key={link.key} className='hover:underline text-white'><h3>{link.label}</h3></Link>
+                    <Link href={`/news/${link.key}`} key={link.key} className='hover:underline text-white'><h3>{link.head}</h3></Link>
                   </div>
                 </article>
               ))}
             </div>
           </div>
 
-          <div className='bg-white hidden md:block'></div>
+          <div className='bg-transparent  hidden md:block'></div>
         </div>
 
       </div>

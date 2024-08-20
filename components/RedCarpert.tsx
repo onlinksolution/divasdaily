@@ -10,11 +10,11 @@ const RedCarpert = () => {
   return (
     <section className='py-16'>
       <div className='main_container grid gap-10'>
-        <h2 className='font-decFont text-white text-5xl text-center -rotate-6'>Red Carpert <br /> Gallery</h2>
+        <h2 className='font-decFont text-white text-5xl text-center -rotate-6'>Hot Divas <br /> Gallery</h2>
 
         <div className='grid gap-3'>
           <div className='gallery_card'>
-            {GALLERY.map((link) => (
+            {GALLERY.slice(0, 8).map((link) => (
               <div className='relative overflow-hidden group'>
                 <Image src={link.img} width={0} height={0} sizes='100vw' alt={link.key} className='w-full h-auto mt-[1rem]' />
                 <div className='w-full h-[3rem] bg-black absolute -bottom-[3rem] flex justify-center items-center uppercase text-white group-hover:bottom-0 transition-all duration-300'>
