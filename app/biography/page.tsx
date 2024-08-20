@@ -17,8 +17,8 @@ const page = () => {
         <div className='grid gap-5 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5'>
           {BIOGRAPHY.sort((a, b) => a.label.localeCompare(b.label)).map((link) => (
             <div className='group relative'>
-              <Link href={link.href} className='relative overflow-hidden'>
-                <Image src={link.img} width={0} height={0} sizes='100vw' className='w-full h-auto rounded-2xl group-hover:scale-95 transition-all duration-300' alt={link.key} />
+              <Link href={`/biography/${link.key}`} className='relative overflow-hidden' key={link.key}>
+                <Image src={link.mainImg} width={0} height={0} sizes='100vw' className='w-full h-auto rounded-2xl group-hover:scale-95 transition-all duration-300' alt={link.key} />
                 <div className='w-full h-[3rem] flex justify-center items-center bg-black absolute bottom-0 group-hover:scale-95 transition-all duration-300'>
                   <h3 className='text-white uppercase'>{link.label}</h3>
                 </div>
