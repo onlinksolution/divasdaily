@@ -105,6 +105,10 @@ export const GALLERY = [
   { key: 'img24', img: '/redcarpet/img20.jpg', label: 'Lucia & Hope Beel' },
   { key: 'img25', img: '/redcarpet/img21.jpg', label: 'Lucia & Hope Beel' },
   { key: 'img26', img: '/redcarpet/img22.jpg', label: 'Lucia & Hope Beel' },
+  { key: 'img27', img: '/redcarpet/img23.jpg', label: 'Sandeepa Dhar' },
+  { key: 'img29', img: '/redcarpet/img25.jpg', label: 'Lucia' },
+  { key: 'img28', img: '/redcarpet/img24.jpg', label: 'Sandeepa Dhar' },
+
 
 ]
 
