@@ -24,6 +24,8 @@ export default function RootLayout({
         {children}
         <Footer />
         <ScrollUp />
+
+        <script type='text/javascript' src='//pl24127246.highratecpm.com/8e/d5/f2/8ed5f24b1532cc4097d5ca9cfd09a541.js'></script>
       </body>
     </html>
   );
