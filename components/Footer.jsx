@@ -17,8 +17,8 @@ const Footer = () => {
             <h3 className="font-mainFont font-600">CONTENT</h3>
             <ul>
               {NAV_LINKS.map((link) => (
-                <li>
-                  <Link href={link.href} key={link.key} className="inline-flex hover:text-pink-700 items-center duration-300">
+                <li key={link.key} >
+                  <Link href={link.href} className="inline-flex hover:text-pink-700 items-center duration-300">
                     <RiArrowRightSLine size={15} />{link.label}
                   </Link>
                 </li>
@@ -30,8 +30,8 @@ const Footer = () => {
             <h3 className="font-mainFont font-600">LEGAL</h3>
             <ul>
               {LEGAL.map((link) => (
-                <li>
-                  <Link href={link.href} key={link.key} className="inline-flex hover:text-pink-700 items-center duration-300">
+                <li key={link.key}>
+                  <Link href={link.href} className="inline-flex hover:text-pink-700 items-center duration-300">
                     <RiArrowRightSLine size={15} />{link.label}
                   </Link>
                 </li>

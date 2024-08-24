@@ -14,7 +14,7 @@ const page = () => {
           <div className='md:col-span-4'>
             <div className='grid md:grid-cols-3'>
               {NEWS.map((link) => (
-                <article className='p-3 rounded-2xl'>
+                <article className='p-3 rounded-2xl' key={link.key}>
                   <div className='grid gap-3'>
                     <Image src={link.mainImg} width={0} height={0} sizes='100vw' alt='news' className='rounded-2xl w-full h-auto' />
 

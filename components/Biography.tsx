@@ -38,7 +38,7 @@ const Biography = () => {
           className="mySwiper w-full"
         >
           {BIOGRAPHY.sort((a, b) => a.label.localeCompare(b.label)).map((link) => (
-            <SwiperSlide>
+            <SwiperSlide key={link.key}>
               <div className='group relative'>
                 <Link href={`/biography/${link.key}`} className='relative overflow-hidden'>
                   <Image src={link.mainImg} width={0} height={0} sizes='100vw' className='w-full h-auto rounded-2xl group-hover:scale-95 transition-all duration-300' alt={link.key} />
