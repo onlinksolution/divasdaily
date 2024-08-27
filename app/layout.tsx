@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script type='text/javascript' src='//pl24127065.highratecpm.com/99/ad/50/99ad503d3d6c8f8518201c09e97a48b3.js'></script>
+        {/* <script type='text/javascript' src='//pl24127065.highratecpm.com/99/ad/50/99ad503d3d6c8f8518201c09e97a48b3.js'></script> */}
       </head>
       <body className="bg-gradient-to-r from-bodyColor1 to-bodyColor2">
         <Navbar />

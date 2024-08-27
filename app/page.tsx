@@ -1,17 +1,15 @@
 import Biography from "@/components/Biography";
-import Fashion from "@/components/Fashion";
 import Hero from "@/components/Hero";
 import RedCarpert from "@/components/RedCarpert";
-import Trending from "@/components/Trending";
+import Photoshoots from "@/components/Photoshoots";
 
 export default function Home() {
   return (
     <main className="overflow-hidden">
       <Hero />
-      <Trending />
+      <Photoshoots />
       <RedCarpert />
       <Biography />
-      {/* <Fashion /> */}
     </main>
 
   );

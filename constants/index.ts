@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '/about-us', key: 'about_us', label: 'About Us' },
-  { href: '/news', key: 'news', label: 'News' },
+  { href: '/photoshoots', key: 'news', label: 'Photoshoots' },
   { href: '/gallery', key: 'gallery', label: 'Gallery' },
   { href: '/biography', key: 'biography', label: 'Biography' },
   { href: '/contact-us', key: 'contact_us', label: 'Contact Us' }
@@ -19,11 +19,11 @@ export const NEWS = [
     date: '2024 August 20',
     head: `Kylie Jenner Hot Blue Bikini Photos`,
 
-    mainImg: '/news/kylienews1/main-img.jpg',
-    img1: `/news/kylienews1/img1.jpg`,
-    img2: `/news/kylienews1/img2.jpg`,
-    img3: `/news/kylienews1/img3.jpg`,
-    img4: `/news/kylienews1/img4.jpg`,
+    mainImg: '/photoshoots/kylienews1/main-img.jpg',
+    img1: `/photoshoots/kylienews1/img1.jpg`,
+    img2: `/photoshoots/kylienews1/img2.jpg`,
+    img3: `/photoshoots/kylienews1/img3.jpg`,
+    img4: `/photoshoots/kylienews1/img4.jpg`,
 
     para1: `Kylie Jenner stuns in her latest photoshoot, where she radiates confidence and elegance by the pool. Dressed in a vibrant blue bikini, the reality TV star and beauty mogul effortlessly showcases her toned physique. The sleek design of the bikini, with its delicate straps and soft, shimmering fabric, perfectly complements Kylie's bronzed skin, making her look both glamorous and relaxed.`,
 
@@ -346,4 +346,58 @@ export const BIOGRAPHY = [
     shoe: 'unknown',
     lastPara: 'Jennifer Lawrence remains one of the most respected and versatile actresses of her generation, known for her compelling performances and charismatic presence on and off-screen.'
   }
+]
+
+export const PHOTOSHOOT = [
+  {
+    key: 'kylie-jenner-hot-blue-bikini-photos',
+    index: 0,
+    title: 'Kylie Jenner Hot Blue Bikini Photos',
+    date: '2024 August 20',
+    desc: 'Kylie Jenner stuns in her latest photoshoot, where she radiates confidence and elegance by the pool.',
+    source: 'instagram',
+    mainImg: '/photoshoots/kylienews1/main-img.jpg',
+    img1: [
+      '/photoshoots/kylienews1/img1.jpg',
+      '/photoshoots/kylienews1/img2.jpg',
+      '/photoshoots/kylienews1/img3.jpg',
+      '/photoshoots/kylienews1/img4.jpg'
+    ],
+  },
+
+  {
+    key: 'kim-kardashian-latest-bikini-photoshoot-goes-viral-on-internet-hot-pics',
+    index: 1,
+    title: 'Kim Kardashian Latest Bikini Photoshoot Goes Viral On Internet',
+    date: '2023 June 27',
+    desc: 'Kim Kardashian is seen posing in a stylish, minimalistic setting that accentuates her figure. She is wearing a sleek black bikini that highlights her curves.',
+    source: 'instagram',
+    mainImg: '/photoshoots/kimnews1/main-img.jpg',
+    img1: [
+      '/photoshoots/kimnews1/img1.jpg',
+      '/photoshoots/kimnews1/img2.jpg',
+      '/photoshoots/kimnews1/img3.jpg',
+      '/photoshoots/kimnews1/img4.jpg'
+    ],
+  },
+
+  {
+    key: 'erifili-sfakianakis-exudes-confidence-and-glamour-in-stunning-photoshoot',
+    index: 2,
+    title: 'Erifili Sfakianakis Exudes Confidence and Glamour in Stunning Photoshoot',
+    date: '2024 July 30',
+    desc: 'Erifili Sfakianakis captivates with her confident and radiant presence in these breathtaking photos. Dressed in a sleek black bodysuit and a shimmering gold outfit, she effortlessly showcases her elegance and boldness.',
+    source: 'instagram',
+    mainImg: '/photoshoots/erifili_ps1/main-img.jpg',
+    img1: [
+      '/photoshoots/erifilips1/img1.jpg',
+      '/photoshoots/erifilips1/img2.jpg',
+      '/photoshoots/erifilips1/img3.jpg',
+      '/photoshoots/erifilips1/img4.jpg',
+      '/photoshoots/erifilips1/img5.jpg',
+      '/photoshoots/erifilips1/img6.jpg'
+    ],
+  },
+
+
 ]

@@ -14,13 +14,16 @@ const page = () => {
           <div className='md:col-span-4'>
             <div className='grid md:grid-cols-3'>
               {NEWS.map((link) => (
-                <article className='p-3 rounded-2xl' key={link.key}>
-                  <div className='grid gap-3'>
-                    <Image src={link.mainImg} width={0} height={0} sizes='100vw' alt='news' className='rounded-2xl w-full h-auto' />
+                <Link href={`/news/${link.key}`} className='group' key={link.key}>
+                  <article className='p-3 transition-all duration-300 group-hover:bg-white/90 group-hover:rounded-2xl' key={link.key}>
+                    <div className='grid gap-3'>
+                      <Image src={link.mainImg} width={0} height={0} sizes='100vw' alt='news' className='rounded-2xl w-full h-auto' />
 
-                    <Link href={`/news/${link.key}`} key={link.key} className='hover:underline text-white'><h3>{link.head}</h3></Link>
-                  </div>
-                </article>
+                      <span className='group-hover:text-black text-white'><h3>{link.head}</h3></span>
+                    </div>
+                  </article>
+                </Link>
+
               ))}
             </div>
           </div>
