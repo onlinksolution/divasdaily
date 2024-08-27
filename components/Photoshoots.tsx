@@ -34,8 +34,8 @@ const Trending = () => {
           className="mySwiper w-full"
         >
           {PHOTOSHOOT.map((link) => (
-            <SwiperSlide>
-              <Link href={`/photoshoots/${link.key}`} className='group' key={link.key}>
+            <SwiperSlide key={link.key}>
+              <Link href={`/photoshoots/${link.key}`} className='group'>
                 <article className='p-3 transition-all duration-300 group-hover:bg-white/90 group-hover:rounded-2xl' key={link.key}>
                   <div className='grid gap-3'>
                     <Image src={link.mainImg} width={0} height={0} sizes='100vw' alt='news' className='rounded-2xl w-full h-auto' />
