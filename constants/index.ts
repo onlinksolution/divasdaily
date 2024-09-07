@@ -108,6 +108,13 @@ export const GALLERY = [
   { key: 'img27', img: '/redcarpet/img23.jpg', label: 'Sandeepa Dhar' },
   { key: 'img29', img: '/redcarpet/img25.jpg', label: 'Lucia' },
   { key: 'img28', img: '/redcarpet/img24.jpg', label: 'Sandeepa Dhar' },
+  { key: 'img29', img: '/photoshoots/anushkasenps1/img3.jpg', label: 'Anushkha Sen' },
+  { key: 'img30', img: '/photoshoots/anushkasenps1/img5.jpg', label: 'Anushkha Sen' },
+  { key: 'img31', img: '/photoshoots/anushkasenps1/img10.jpg', label: 'Anushkha Sen' },
+  { key: 'img32', img: '/redcarpet/img26.jpg', label: 'Anushkha Sen' },
+  { key: 'img33', img: '/redcarpet/img27.jpg', label: 'Anushkha Sen' },
+  { key: 'img34', img: '/redcarpet/img28.jpg', label: 'Anushkha Sen' },
+  { key: 'img35', img: '/redcarpet/img29.jpg', label: 'Anushkha Sen' },
 
 
 ]
@@ -396,6 +403,35 @@ export const PHOTOSHOOT = [
       '/photoshoots/erifilips1/img4.jpg',
       '/photoshoots/erifilips1/img5.jpg',
       '/photoshoots/erifilips1/img6.jpg'
+    ],
+  },
+
+  {
+    key: 'anushkha-sen-hot-blue-saree-photoshoot',
+    index: 3,
+    title: 'Anushkha Sen hot blue Saree Photoshoot',
+    date: '2024 September 05',
+    desc: 'Anushka Sen looks stunning in this elegant blue saree, showcasing her timeless beauty and grace. Her poised stance, paired with the flowing drape of the saree, creates a perfect blend of tradition and modern style. ',
+    source: 'instagram',
+    mainImg: '/photoshoots/anushkasenps1/main-img.jpg',
+    img1: [
+      '/photoshoots/anushkasenps1/img1.jpg',
+      '/photoshoots/anushkasenps1/img2.jpg',
+      '/photoshoots/anushkasenps1/img3.jpg',
+      '/photoshoots/anushkasenps1/img4.jpg',
+      '/photoshoots/anushkasenps1/img5.jpg',
+      '/photoshoots/anushkasenps1/img6.jpg',
+      '/photoshoots/anushkasenps1/img7.jpg',
+      '/photoshoots/anushkasenps1/img8.jpg',
+      '/photoshoots/anushkasenps1/img9.jpg',
+      '/photoshoots/anushkasenps1/img10.jpg',
+      '/photoshoots/anushkasenps1/img11.jpg',
+      '/photoshoots/anushkasenps1/img12.jpg',
+      '/photoshoots/anushkasenps1/img13.jpg',
+      '/photoshoots/anushkasenps1/img14.jpg',
+      '/photoshoots/anushkasenps1/img15.jpg',
+      '/photoshoots/anushkasenps1/img16.jpg',
+      '/photoshoots/anushkasenps1/img17.jpg',
     ],
   },
 
